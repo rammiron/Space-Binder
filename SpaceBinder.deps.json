@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SpaceBinder/1.0.0": {
+        "dependencies": {
+          "YamlDotNet": "15.3.0"
+        },
+        "runtime": {
+          "SpaceBinder.dll": {}
+        }
+      },
+      "YamlDotNet/15.3.0": {
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpaceBinder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YamlDotNet/15.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F93japYa9YrJ59AZGhgdaUGHN7ITJ55FBBg/D/8C0BDgahv/rQD6MOSwHxOJJpon1kYyslVbeBrQ2wcJhox01w==",
+      "path": "yamldotnet/15.3.0",
+      "hashPath": "yamldotnet.15.3.0.nupkg.sha512"
+    }
+  }
+}
